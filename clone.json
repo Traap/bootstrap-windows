@@ -1,0 +1,29 @@
+{
+  "gitconfig": {
+    "use": true,
+    "email": "gary.a.howard@mac.com",
+    "global": true,
+    "user": "Traap"
+  },
+  "repositories": {
+    "use": true,
+    "repos": [
+      {
+        "url": "https://github.com/Traap/amber.git",
+        "use": true
+      },
+      {
+        "url": "https://github.com/Traap/check-latex.git",
+        "use": true
+      },
+      {
+        "url": "https://github.com/Traap/dotfiles.git",
+        "use": true
+      },
+      {
+        "url": "https://github.com/Traap/nvim.git",
+        "use": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "chocolatey": {
+    "use": true,
+    "name": "choco"
+  },
+  "dbeaver": {
+    "use": true,
+    "name": "dbeaver"
+  },
+  "docker": {
+    "use": true,
+    "name": "docker-cli"
+  },
+  "git": {
+    "use": true,
+    "name": "git.install"
+  },
+  "gitconfig": {
+    "use": true,
+    "email": "gary.a.howard@mac.com",
+    "global": true,
+    "user": "Traap1234"
+  },
+  "repositories": {
+    "use": true,
+    "repos": [
+      {
+        "url": "https://bitbucket.org/CanaryMedical/clinic-pc-app.git",
+        "use": true
+      },
+      {
+        "url": "https://bitbucket.org/CanaryMedical/clinic-server.git",
+        "use": true
+      }
+    ]
+  },
+  "ruby": {
+    "use": true,
+    "name": "ruby.install"
+  },
+  "visualstudio": {
+    "use": true,
+    "name": "visualstudio2022professional"
+  },
+  "visualcode": {
+    "use": true,
+    "name": "vscode vscode.install",
+    "packages": [
+      {
+        "name": "invoke-build",
+        "use": true
+      },
+      {
+        "name": "vscode-azure-deploy",
+        "use": true
+      },
+      {
+        "name": "vscode-cloud-code",
+        "use": true
+      },
+      {
+        "name": "vscode-codespellchecker",
+        "use": true
+      },
+      {
+        "name": "vscode-csharp",
+        "use": true
+      },
+      {
+        "name": "vscode-docker",
+        "use": true
+      },
+      {
+        "name": "vscode-gitignore",
+        "use": true
+      },
+      {
+        "name": "vscode-gitlens",
+        "use": true
+      },
+      {
+        "name": "vscode-markdownlint",
+        "use": true
+      },
+      {
+        "name": "vscode-mssql",
+        "use": true
+      },
+      {
+        "name": "vscode-powershell",
+        "use": true
+      },
+      {
+        "name": "vscode-ruby",
+        "use": true
+      },
+      {
+        "name": "vscode-todo-tree",
+        "use": true
+      },
+      {
+        "name": "vscode-xmltools",
+        "use": true
+      },
+      {
+        "name": "vscode-yaml",
+        "use": true
+      }
+    ]
+  }
+}
