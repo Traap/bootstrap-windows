@@ -29,7 +29,7 @@ environment.
 1. A new shell must be started to refresh your path and environment.
 2. Run PowerShell as Administrator
 3. Change directory to the location bootstrap was downloaded and unzipped.
-4. Validate your Bitbucket credentials with your Browser.
+4. Validate your GitHub credentials with your Browser.
 5. Run clone.cmd script.
 
 ```PowerShell

@@ -11,22 +11,13 @@
     "use": true,
     "name": "docker-cli"
   },
+  "dotnet": {
+    "use": true,
+    "name": "dotnetcore-2.1-sdk-5xx"
+  },
   "git": {
     "use": true,
     "name": "git.install"
-  },
-  "repositories": {
-    "use": true,
-    "repos": [
-      {
-        "url": "https://bitbucket.org/CanaryMedical/clinic-pc-app.git",
-        "use": true
-      },
-      {
-        "url": "https://bitbucket.org/CanaryMedical/clinic-server.git",
-        "use": true
-      }
-    ]
   },
   "ruby": {
     "use": true,
