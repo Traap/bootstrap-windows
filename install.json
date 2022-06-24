@@ -15,12 +15,6 @@
     "use": true,
     "name": "git.install"
   },
-  "gitconfig": {
-    "use": true,
-    "email": "gary.a.howard@mac.com",
-    "global": true,
-    "user": "Traap1234"
-  },
   "repositories": {
     "use": true,
     "repos": [

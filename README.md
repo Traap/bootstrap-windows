@@ -83,7 +83,7 @@ powershell powershell.exe -executionpolicy bypass -file .\install.ps1 install
 
 #### uninstall.cmd
 A command script that runs
-[install.ps1](https://github.com/Traap/bootstrap-windows/blob/master/bootsrap.ps1)
+[install.ps1](https://github.com/Traap/bootstrap-windows/blob/master/install.ps1)
 with the *uninstall* option.
 
 ```cmd
@@ -112,7 +112,7 @@ repositories defined in
 [clone.json](https://github.com/Traap/bootstrap-windows/blob/master/clone.json).
 
 #### clonse.json
-Aut minimum, *$HOME/.gitconfig* personalilization is needed.
+Aut minimum, *$HOME/.gitconfig* personalization is needed.
 
 ```json
 {
