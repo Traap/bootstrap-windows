@@ -19,6 +19,24 @@
     "use": false,
     "name": "dotnetcore-2.1-sdk-5xx"
   },
+  "file-utilities": {
+    "use": true,
+    "packages":
+    [
+      {
+        "name": "fzf",
+        "use": true
+      },
+      {
+        "name": "vifm",
+        "use": true
+      },
+      {
+        "name": "ripgrep",
+        "use": true
+      }
+    ]
+  },
   "git": {
     "use": false,
     "name": "git.install"
@@ -29,7 +47,8 @@
   },
   "vim": {
     "use": true,
-    "packages": [
+    "packages":
+    [
       {
         "name": "vim",
         "use": true
@@ -43,7 +62,8 @@
   "visualcode": {
     "use": false,
     "name": "vscode vscode.install",
-    "packages": [
+    "packages":
+    [
       {
         "name": "invoke-build",
         "use": false
