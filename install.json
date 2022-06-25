@@ -8,7 +8,7 @@
     "name": "dbeaver"
   },
   "email": {
-    "use": true,
+    "use": false,
     "name": "thunderbird"
   },
   "docker": {
@@ -19,20 +19,26 @@
     "use": false,
     "name": "dotnetcore-2.1-sdk-5xx"
   },
-  "file-utilities": {
-    "use": true,
-    "packages":
-    [
+  "editor": {
+    "use": false,
+    "name": "neovim",
+    "packages": [
+      {
+        "name": "vim",
+        "use": false
+      }
+    ]
+  },
+  "fileutils": {
+    "use": false,
+    "name": "ripgrep",
+    "packages": [
       {
         "name": "fzf",
         "use": true
       },
       {
         "name": "vifm",
-        "use": true
-      },
-      {
-        "name": "ripgrep",
         "use": true
       }
     ]
@@ -45,25 +51,10 @@
     "use": false,
     "name": "ruby.install"
   },
-  "vim": {
-    "use": true,
-    "packages":
-    [
-      {
-        "name": "vim",
-        "use": true
-      },
-      {
-        "name": "neovim",
-        "use": true
-      }
-    ]
-  },
   "visualcode": {
     "use": false,
     "name": "vscode vscode.install",
-    "packages":
-    [
+    "packages": [
       {
         "name": "invoke-build",
         "use": false

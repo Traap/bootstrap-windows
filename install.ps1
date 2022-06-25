@@ -84,49 +84,17 @@ if ($Command -eq "Install") {
 }
 
 # ------------------------------------------------------------------------- }}}
-# {{{ Git
+# {{{ Install programs without dependencies. 
 
 Invoke-Choco-Command $Config.git
-
-# ------------------------------------------------------------------------- }}}
-# {{{ Dbeaver
-
 Invoke-Choco-Command $Config.dbeaver
-
-# ------------------------------------------------------------------------- }}}
-# {{{ Docker
-
 Invoke-Choco-Command $Config.docker
-
-# ------------------------------------------------------------------------- }}}
-# {{{ Email
-
+Invoke-Choco-Command $Config.dotnet
 Invoke-Choco-Command $Config.email
-
-# ------------------------------------------------------------------------- }}}
-# {{{ File Utilities
-
-Invoke-Choco-Command $Config.file-utilities
-
-# ------------------------------------------------------------------------- }}}
-# {{{ Ruby
-
+Invoke-Choco-Command $Config.editor
+Invoke-Choco-Command $Config.fileutils
 Invoke-Choco-Command $Config.ruby
-
-# ------------------------------------------------------------------------- }}}
-# {{{ Vim
-
-Invoke-Choco-Command $Config.vim
-
-# ------------------------------------------------------------------------- }}}
-# {{{ Visual Code
-
 Invoke-Choco-Command $Config.visualcode
-
-# ------------------------------------------------------------------------- }}}
-# {{{ Visual Studio
-
-Invoke-Choco-Command $Config.visualstudio
 
 # ------------------------------------------------------------------------- }}}
 # {{{ Uninstall Chocolatey.  Must be the last block.
