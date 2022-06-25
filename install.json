@@ -1,95 +1,108 @@
 {
   "chocolatey": {
-    "use": true,
+    "use": false,
     "name": "choco"
   },
   "dbeaver": {
-    "use": true,
+    "use": false,
     "name": "dbeaver"
   },
-  "docker": {
+  "email": {
     "use": true,
+    "name": "thunderbird"
+  },
+  "docker": {
+    "use": false,
     "name": "docker-cli"
   },
   "dotnet": {
-    "use": true,
+    "use": false,
     "name": "dotnetcore-2.1-sdk-5xx"
   },
   "git": {
-    "use": true,
+    "use": false,
     "name": "git.install"
   },
   "ruby": {
-    "use": true,
+    "use": false,
     "name": "ruby.install"
   },
-  "visualstudio": {
+  "vim": {
     "use": true,
-    "name": "visualstudio2022professional"
+    "packages": [
+      {
+        "name": "vim",
+        "use": true
+      },
+      {
+        "name": "neovim",
+        "use": true
+      }
+    ]
   },
   "visualcode": {
-    "use": true,
+    "use": false,
     "name": "vscode vscode.install",
     "packages": [
       {
         "name": "invoke-build",
-        "use": true
+        "use": false
       },
       {
         "name": "vscode-azure-deploy",
-        "use": true
+        "use": false
       },
       {
         "name": "vscode-cloud-code",
-        "use": true
+        "use": false
       },
       {
         "name": "vscode-codespellchecker",
-        "use": true
+        "use": false
       },
       {
         "name": "vscode-csharp",
-        "use": true
+        "use": false
       },
       {
         "name": "vscode-docker",
-        "use": true
+        "use": false
       },
       {
         "name": "vscode-gitignore",
-        "use": true
+        "use": false
       },
       {
         "name": "vscode-gitlens",
-        "use": true
+        "use": false
       },
       {
         "name": "vscode-markdownlint",
-        "use": true
+        "use": false
       },
       {
         "name": "vscode-mssql",
-        "use": true
+        "use": false
       },
       {
         "name": "vscode-powershell",
-        "use": true
+        "use": false
       },
       {
         "name": "vscode-ruby",
-        "use": true
+        "use": false
       },
       {
         "name": "vscode-todo-tree",
-        "use": true
+        "use": false
       },
       {
         "name": "vscode-xmltools",
-        "use": true
+        "use": false
       },
       {
         "name": "vscode-yaml",
-        "use": true
+        "use": false
       }
     ]
   }
