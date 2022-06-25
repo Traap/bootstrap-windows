@@ -99,9 +99,24 @@ Invoke-Choco-Command $Config.dbeaver
 Invoke-Choco-Command $Config.docker
 
 # ------------------------------------------------------------------------- }}}
+# {{{ Email
+
+Invoke-Choco-Command $Config.email
+
+# ------------------------------------------------------------------------- }}}
+# {{{ File Utilities
+
+Invoke-Choco-Command $Config.file-utilities
+
+# ------------------------------------------------------------------------- }}}
 # {{{ Ruby
 
 Invoke-Choco-Command $Config.ruby
+
+# ------------------------------------------------------------------------- }}}
+# {{{ Vim
+
+Invoke-Choco-Command $Config.vim
 
 # ------------------------------------------------------------------------- }}}
 # {{{ Visual Code
