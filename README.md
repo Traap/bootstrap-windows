@@ -6,7 +6,7 @@ environment.
 ## Prerequisites
 1. Administrative privileges to your computer.
 2. [PowerShell](https://en.wikipedia.org/wiki/PowerShell)
-3. Credentials to a [git-based](https://en.wikipedia.org/wiki/Git) source conde repository system
+3. Credentials to a [git-based](https://en.wikipedia.org/wiki/Git) source code repository system
 5. Internet access
 
 ## TL;DR
@@ -111,26 +111,34 @@ A PowerShell script that initialized your *$HOME/.gitconfig* file, and clones
 repositories defined in
 [clone.json](https://github.com/Traap/bootstrap-windows/blob/master/clone.json).
 
-#### clonse.json
+#### clone.json
 Aut minimum, *$HOME/.gitconfig* personalization is needed.
 
 ```json
 {
   "gitconfig": {
-    "use": false,
-    "email": "ga.cj.howard@gmail.com",
+    "use": true,
+    "email": "gary.a.howard@mac.com",
     "global": true,
-    "user": "Traap1234"
+    "user": "Traap"
   },
   "repositories": {
     "use": true,
     "repos": [
       {
-        "url": "https://bitbucket.org/CanaryMedical/clinic-pc-app.git",
+        "url": "https://github.com/Traap/amber.git",
         "use": true
       },
       {
-        "url": "https://bitbucket.org/CanaryMedical/clinic-server.git",
+        "url": "https://github.com/Traap/check-latex.git",
+        "use": true
+      },
+      {
+        "url": "https://github.com/Traap/dotfiles.git",
+        "use": true
+      },
+      {
+        "url": "https://github.com/Traap/nvim.git",
         "use": true
       }
     ]
@@ -139,6 +147,6 @@ Aut minimum, *$HOME/.gitconfig* personalization is needed.
 ```
 
 You are encouraged to review the _visualcode_ section.  The addons are listed
-alphebitically.  These addons are popular for Azure, CSharp, Docker, Git, Json,
+alphabetically.  These addons are popular for Azure, CSharp, Docker, Git, Json,
 PowerShell, Ruby, and XML development and testing.
 
