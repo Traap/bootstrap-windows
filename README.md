@@ -112,7 +112,8 @@ repositories defined in
 [clone.json](https://github.com/Traap/bootstrap-windows/blob/master/clone.json).
 
 #### clone.json
-Aut minimum, *$HOME/.gitconfig* personalization is needed.
+At minimum, *$HOME/.gitconfig* personalization is needed.  I'm guessing that you
+will not want to clone my repositories either.
 
 ```json
 {
